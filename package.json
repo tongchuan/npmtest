@@ -1,0 +1,19 @@
+{
+  "name": "testnpmzhangtongchuan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhangtongchuan <tongchuanxing@163.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tongchuan/npmtest.git"
+  },
+  "bugs":{
+    "url": "https://github.com/tongchuan/npmtest/issues"
+  },
+  "homepage":"https://github.com/tongchuan/npmtest"
+}
