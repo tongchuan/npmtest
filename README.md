@@ -73,6 +73,6 @@ npm publish --access=public
 （完）
 
 来自：https://my.oschina.net/fenying/blog/1607571
-
+    "prepare": "npm run rebuild",
     // "publish": "npm publish --access=public",
         // "prepublish": "in-publish && safe-publish-latest && npm run build || not-in-publish",
