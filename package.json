@@ -1,6 +1,6 @@
 {
   "name": "testnpmzhangtongchuan",
-  "version": "1.0.6",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -38,5 +38,11 @@
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
     "safe-publish-latest": "^1.1.1"
-  }
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "lib/"
+  ]
 }
