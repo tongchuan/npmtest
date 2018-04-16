@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "npm run rebuild",
+    "build": "tsc -p .",
+    "rebuild": "npm run clean && npm run lint && npm run build",
+    "test": "echo See directory sources/tests",
+    "clean": "rm -rf dist",
+    "lint": "tslint --project tslint.json"
   },
   "author": "zhangtongchuan <tongchuanxing@163.com>",
   "license": "ISC",
@@ -15,5 +20,5 @@
   "bugs":{
     "url": "https://github.com/tongchuan/npmtest/issues"
   },
-  "homepage":"https://github.com/tongchuan/npmtest"
+  "homepage":"https://github.com/tongchuan/npmtest#readme"
 }
