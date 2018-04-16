@@ -1,6 +1,6 @@
 {
   "name": "testnpmzhangtongchuan",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,8 +17,8 @@
     "type": "git",
     "url": "git+https://github.com/tongchuan/npmtest.git"
   },
-  "bugs":{
+  "bugs": {
     "url": "https://github.com/tongchuan/npmtest/issues"
   },
-  "homepage":"https://github.com/tongchuan/npmtest#readme"
+  "homepage": "https://github.com/tongchuan/npmtest#readme"
 }
